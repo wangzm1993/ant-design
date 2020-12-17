@@ -26,7 +26,7 @@ const openNotification = () => {
   const key = `open${Date.now()}`;
   const btn = (
     <Button type="primary" size="small" onClick={() => notification.close(key)}>
-      Confirm
+      查看详情
     </Button>
   );
   notification.open({
